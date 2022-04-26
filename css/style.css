@@ -1,0 +1,40 @@
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.imgContainer {
+    width: 50%;
+    margin: 10px;
+}
+
+.imgContainer img{
+    width: 100%;
+}
+
+footer{
+    margin-top: 30px;
+    color: rgb(137, 141, 145);
+}
+
+@media screen and (max-width: 576px) {
+
+    .imgSlider {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .sabores {
+        flex-wrap: wrap;
+    }
+
+    .imgContainer {
+        width: 100%;
+    }
+
+    .footerWrap {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
